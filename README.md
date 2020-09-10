@@ -4,10 +4,10 @@
     
     service sendmail start
 
-    gcc -o email_spoof email_spoof.c -lcurl
+    gcc -o spoof spoof.c -lcurl
 
-    ./email_spoof [RECIPIENT EMAIL]
+    ./spoof [RECIPIENT EMAIL]
 
 **#Example**
 
-`./email_spoof example@gmail.com`
+`./spoof example@gmail.com`
