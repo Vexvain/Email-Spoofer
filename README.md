@@ -4,7 +4,7 @@
     
     service sendmail start
 
-    gcc -o spoof spoof.c -lcurl
+    gcc -o email_spoof spoof.c -lcurl
 
     ./spoof [RECIPIENT EMAIL]
 
